@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('chat-app-step1 App', () => {
+describe('chat-app-step0 App', () => {
   let page: AppPage;
 
   beforeEach(() => {
