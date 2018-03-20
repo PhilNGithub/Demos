@@ -1,0 +1,21 @@
+p {
+    background-color: green;
+}
+
+header {
+    background-color: #fff;
+    height: 200px;
+    border-bottom: 1px solid black;
+}
+
+header img {
+    width: 3000px;
+}
+
+header .meinheader {
+    width: 500px;
+}
+
+#meinheader-als-id {
+    width: 600px;
+}
