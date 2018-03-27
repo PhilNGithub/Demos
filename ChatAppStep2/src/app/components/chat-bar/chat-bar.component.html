@@ -1,0 +1,17 @@
+<div>
+  <h3>chat-bar</h3>
+  <textarea [(ngModel)]="chatMessage" (keyup.enter)="addMessage(chatMessage)" class="form-control" rows="2" placeholder="type here..."></textarea>
+  <button [disabled]="!chatMessage" class="btn btn-primary" (click)="addMessage(chatMessage)">submit</button>
+  <button [disabled]="!chatMessage" class="btn btn-primary" (click)="showMessage()">submit 2</button>
+</div>
+
+<!-- hier ein kleines beispiel für 2-way-binding
+sehen was passiert wenn man ein text eingibt -->
+<p>{{chatMessage}}</p>
+
+
+<div>
+  <p>beispiel für 2-way-binding</p>
+  <input [(ngModel)]="demo" placeholder="type here...">
+  <p>{{demo}}</p>
+</div>
